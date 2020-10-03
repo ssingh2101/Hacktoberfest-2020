@@ -10,7 +10,7 @@ public class ValidateEvenOdd {
 
             System.out.println(isEven(number) ? number + " is an even number" : number + " is a odd number");
         }catch (InputMismatchException e) {
-            System.out.println("Input type mismatch,85 Please enter an integer");
+            System.out.println("Input type mismatch, Please enter an integer");
         }
     }
 
